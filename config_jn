@@ -1,0 +1,21 @@
+#!/bin/bash
+
+#Do not modify anything in this code
+
+#install jupyter notebook extensions
+pip install jupyter_contrib_nbextensions
+
+#Add directory to path
+export PATH=$PATH:\home\jupyter\.local\bin
+
+#finish extension installation
+jupyter contrib nbextension install --user
+
+jupyter-nbextension enable hide_input/main
+jupyter-nbextension enable init_cell/main
+
+#Enable extension to activate widgets
+jupyter-nbextension enable --py --sys-prefix widgetsnbextension
+
+
+
