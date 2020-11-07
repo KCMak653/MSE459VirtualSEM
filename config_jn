@@ -4,7 +4,7 @@
 
 #install jupyter notebook extensions
 pip install jupyter_contrib_nbextensions
-
+pip install ipython --upgrade
 #Add directory to path
 export PATH=$PATH:/home/jupyter/.local/bin
 
