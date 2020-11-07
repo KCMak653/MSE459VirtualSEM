@@ -6,7 +6,7 @@
 pip install jupyter_contrib_nbextensions
 
 #Add directory to path
-export PATH=$PATH:\home\jupyter\.local\bin
+export PATH=$PATH:/home/jupyter/.local/bin
 
 #finish extension installation
 jupyter contrib nbextension install --user
